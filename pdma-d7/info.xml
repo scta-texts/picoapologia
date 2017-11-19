@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<info>
+    <body>
+      <div xml:id="pdma-d7">
+        <head xml:id="pdma-d7-Hd1e3846">Apologia, Disputatio 7 [Basel 1557 Transcription]</head>
+        <p xml:id="pdma-d7-d1e3849"></p>
+        <p xml:id="pdma-d7-d1e3876"></p>
+        <p xml:id="pdma-d7-d1e3901"></p>
+        <p xml:id="pdma-d7-d1e4083"></p> 
+        <p xml:id="pdma-d7-d1e4200"></p>
+        <p xml:id="pdma-d7-d1e4243"></p>
+        <p xml:id="pdma-d7-d1e4313"></p>
+        <p xml:id="pdma-d7-d1e4393"></p>
+        <p xml:id="pdma-d7-d1e4546"></p>
+        <p xml:id="pdma-d7-d1e4596"></p>
+        <!-- jump to page 213 -->
+        <p xml:id="pdma-d7-d1e4978"></p>
+        <p xml:id="pdma-d7-d1e5010">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/rh-l1q1-d1e6945"/>
+          </assertions>
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

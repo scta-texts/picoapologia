@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Apologia, Disputatio 8</title>
+        <author xml:id="PicoDellaMirandoal">Pico della Mirandola</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Disputatio 7</title>
+          <date when="2017-11-19">November 19, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="Basel1557">Basel 1557</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-11-19" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="224"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pdma-d8">
+        <head>Apologia, Disputatio 8 [Basel 1557 Transcription]</head>
+        <p>
+          <lb ed="#B"/>Sicut nullus praecise, sic opinatur, quia vult sic opinari: ita nullus cre<lb ed="#B"/>dit, 
+          sic esse verum praecise, quia vult sic credere. Ex hac conclusione 
+          <lb ed="#B"/><sic>correlarie</sic> infero istam. Non est in libera potestate hominis credere 
+          <lb ed="#B"/>articulum fidei esse verum, quando sibi placet, et credere eum non esse ve<lb ed="#B"/>rum, 
+          quando sibi placet.
+        </p>
+        <p>
+          Iudicaverunt isti Magistri, quod propositio cum 
+          <lb ed="#B"/>suo correlario esset erronea et haeresim sapiens. ergo autem reputo, conclu<lb ed="#B"/>sionem 
+          principalem esse, non solum catholicam, sed verissimam, et lon<pb ed="#B" n="225"/><lb ed="#B"/>ge 
+          veriorem sua opposita: et idem dico de correlario sane intellecto, cuius 
+          <lb ed="#B"/>sensus, si secundum mentem meam accipitur, non est aliter accipiendus, 
+          <lb ed="#B"/>quam ut sequitur ex principali conclusione, cuius ponitur esse correlarium
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

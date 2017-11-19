@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Apologia, Disputatio 7</title>
+        <author xml:id="PicoDellaMirandoal">Pico della Mirandola</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Disputatio 7</title>
+          <date when="2016-12-11">December 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="Basel1557">Basel 1557</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-12-11" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#B" n="199"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pdma-d7">
+        <head xml:id="pdma-d7-Hd1e3846">Apologia, Disputatio 7 [Basel 1557 Transcription]</head>
+        <p xml:id="pdma-d7-d1e3849">
+          <pb ed="#B" n="199"/>
+          <lb ed="#B"/>Rationabilius est credere <name ref="#Origen">Origenem</name> esse saluum, quam credere ip<lb ed="#B"/>sum 
+          esse damnatum. Dixerunt isti Magistri, quod haec conclusio 
+          <lb ed="#B"/>est temeraria et reprehendenda, et haeresim sapiens, et contra de<lb ed="#B"/>terminationem 
+          universalis Ecclesiae. ergo autem ut de eis modestius lo<lb ed="#B"/>quar, 
+          volo ostendere suum iudicium non esse rectum: et quod haec con<lb ed="#B"/>clusio 
+          non est contra determinationem Ecclesiae et quod plus est, quod quan<lb ed="#B"/>do 
+          etiam quaecunque ipsi contra me afferunt essent vera, adhuc non po<lb ed="#B"/>test 
+          dici, quod haec conclusio sit haeretica vel haresim sapiat. erunt autem pro 
+          <lb ed="#B"/>pleniori huius materiae declaratione, septem articuli.
+        </p>
+        <p xml:id="pdma-d7-d1e3876">
+          In primo videbitur, 
+          <lb ed="#B"/>an Origenes unquam haereticam aliquam de rebus fidei opinionem, scri<lb ed="#B"/>pserit 
+          et crediderit? in secundo, dato quod sripserit, an dogmatice, vel ad<lb ed="#B"/>haesive, 
+          vel inquisitive tantum scripserit? in tertio, dato quod adhaesive, an 
+          <lb ed="#B"/>taliter adhaesive, quod illa scribendo mortaliter peccaverit, et haereticus di<lb ed="#B"/>ci 
+          possit? in quarto, dato quod scripserit, et taliter scripserit, quod scriben<lb ed="#B"/>do 
+          erraverit, an pro talibus unquam poenituerit? in quinto, dato quod de 
+          eius nec poenitentia, nec impoenitentia constet, an sit rationabilius ipsum 
+          <lb ed="#B"/>credere esse damnatum an saluum? in sexto, quid ex dictis decretorum, iu<lb ed="#B"/>dicandum 
+          sit, Ecclesiam determinasse de <name>Origine</name>? in septimo, quantum ob<lb ed="#B"/>liget 
+          in ista materia, crudelitatem nostram determinatio Ecclesiae?
+        </p>
+        <p xml:id="pdma-d7-d1e3901">
+          In materia 
+          <lb ed="#B"/>primi articuli, amara fuit inter <name>Ruffinum</name> et <name ref="#Jerome">Hironymum</name> contenti, qui<lb ed="#B"/>bus 
+          (ut dicit <name ref="#Augustine">Augustinus</name>, qui ortam inter eos dissensionem deplorat) dede<lb ed="#B"/>rat 
+          Deus, ut coniunctissimi et familiarissimi, mella scripturarum sancta<lb ed="#B"/>rum 
+          pariter lamberent. Opinatur Ruffinus haeretica dogmata, quae in li<lb ed="#B"/>bris 
+          <name ref="#Origen">Origenis</name> inveniuntur, ab haereticis falsa fuisse inserta, qui illius depraverunt libros, 
+          et ex <name ref="#Ori">Origenis</name> mente non esse. <name ref="#Jerome">Hieronymus</name> contra sentit. 
+          <lb ed="#B"/>Sed videamus, quid utraque opinio habet probabilitatis, et apparebit for<lb ed="#B"/>te, 
+          quod salva fide et plenaria satisfactione eorum omnium, quae de neces<lb ed="#B"/>sitate 
+          salutis tenemur credere, adhuc libere et probabiliter potest credi, quod 
+          <lb ed="#B"/>principales illae haereses, ex quibus peccatum convincitur <name ref="#Origen">Origenis</name>, et con<lb ed="#B"/>sequenter 
+          damnatio, non fuerint ex <name>Origenis</name> mente, sed ei falso a perfidis 
+          <lb ed="#B"/>haereticis illius libros depravantibus impositae. Est autem pro hac parte, 
+          <lb ed="#B"/>primo authoritas Pamphili martyris, cuius liber fertur in defensionem <name ref="#Origen">Ori<lb ed="#B"/>genis</name>, 
+          in quo gloriosissimus Martyr, ex verbis ipsius <name ref="#Origen">Origenis</name>, ex eius li<lb ed="#B"/>bris 
+          ibi recitatis, ostendit ipsum Catholice sensisse, in his in quibus haere<lb ed="#B"/>ticus 
+          accusatur. <name ref="#Jerome">Hieronymus</name> autem hunc librum negans esse Pamphili, in 
+          <lb ed="#B"/>apologia sua ad Occeanum et Pammachium responsiva, sic inquit. Si ab 
+          <lb ed="#B"/>inimicis <name ref="#Origen">Origenis</name> libros eius dicitis esse violatos, ut infamaretur, qua<lb ed="#B"/>re 
+          mihi non liceat dicere, de amicis eius et sectatoribus compositum es<lb ed="#B"/>se, 
+          sub nomine Pamphili volumne, quod illum testimonio Martyris, 
+          <pb ed="#B" n="200"/>
+          <lb ed="#B"/>ab infamia vendicaret. Ex quibus verbis videtur, quasi satis notari posse, quod 
+          <lb ed="#B"/><name ref="#Jerome">Hieronymus</name> utrumque ponat probabile, innuens sicut convinci, quod 
+          <lb ed="#B"/>ille liber si Pamphili: et infra subdit <name>Hieronymus</name>. Et ipsum nomen Apo<lb ed="#B"/>logetici 
+          ostendit excusationem, non enim defenditur, nisi quod in crimine est. 
+          <lb ed="#B"/>Sed diceret forte quis. ergo et cum hunc ipsum tractatum, in quo haec scribit 
+          <lb ed="#B"/><name ref="#Jerome">Hieronymus</name> Apologiae titulo notet, in quo defindit se, quod <name ref="#Origen">Origenis</name> do<lb ed="#B"/>ctrinam, 
+          non dogma sit sequutus, pariter se ostendit reum esse criminis post<lb ed="#B"/>quam 
+          non defenditur, nisi quod est in crimine: et sic nemo iuste poterit excu<lb ed="#B"/>sari, 
+          si excusatio semper iustam praesupponit accusationem. Sed videamus, 
+          <lb ed="#B"/>tunc quibus coniecturis moveatur <name ref="#Jerome">Hieronymus</name>, ad credendum librum non es<lb ed="#B"/>se 
+          Pamphili. primum quod movet <name ref="#Jerome">Hieronymum</name> est, quod eadem leguntur 
+          <lb ed="#B"/>in primo libro <name ref="#Eusebius">Eusebii</name> illorum sex, quae scripsit pro <name ref="#Origen">Origene</name>: secundum est, 
+          <lb ed="#B"/>quod ipse <name ref="#Eusebius">Eusebius</name> scribens vitam Pamphili, dixit ipsum nihil proprii ope<lb ed="#B"/>ris 
+          scripsisse. sic enim dicit <name ref="#Jerome">Hironymus</name> in primo libro contra <name>Ruffinum</name> 
+          <lb ed="#B"/>ad <name>Panmachium</name> et <name>Marcellum</name>: Sex libros <name>Eusebius Cesariensis Episcopus. 
+          <lb ed="#B"/>Arrianae</name> quondam signifer factionis, pro <name ref="#Origen">Origene</name> scripsit, latissimum et 
+          <lb ed="#B"/>elaboratum opus. et multis testimoniis approbavit <name ref="#Origen">Origenem</name> iuxta se catho<lb ed="#B"/>licum, 
+          id est iuxta nos <name>Arrianum</name> esse. horum tu primum librum vertis sub no<lb ed="#B"/>mine 
+          martyris et infra. Si iste <name>Pamphili</name> liber est, de sex libris, quis erit pri<lb ed="#B"/>mus 
+          Eusebii? et infra.
+        </p>
+        <p xml:id="pdma-d7-d1e4083">
+          Item <name>Eusebius</name> amator, et praeco, et contubernalis 
+          <lb ed="#B"/>Pamphili, tres libros scripsit elegantissimos, vitam Pamphili continentes, in 
+          <lb ed="#B"/>quorum tertio sic dicit de Pamphilo: Et ipse quidem proprii operis nihil om<lb ed="#B"/>nino 
+          scripsit, exceptis epistolis, quas ad amicos forte mittebat. In tantum se 
+          <lb ed="#B"/>humanitate deiecerat defensor <name>Origensi</name>. et laudator Pamphili dicit, Pam<lb ed="#B"/>philum 
+          nihil omnino, nec proprii quicquam condidisse sermonis, et hoc di<lb ed="#B"/>xit 
+          iam Pamphilo martyrio coronato, ne habeas suffugium, post editos ab 
+          <lb ed="#B"/><name>Eusebio</name> libros, hoc <name>Pamphilum</name> scripsisse. et infra. Quid facient epistolae 
+          <name>Theophili</name> episcopi? quid <name>papae Anastasii</name> in toto orbe haereticum prosequen<lb ed="#B"/>tes? 
+          cum liber tuus, sub nomine <name>Pamphili</name> editus, pugnet contra epistolas eo<lb ed="#B"/>rum: 
+          Et in secundo libro sic scribit <name>Hieronymus.</name> Cum ante annos ferme de<lb ed="#B"/>cem, 
+          Dexter amicus meus, qui praefecturam administravit praetorii, me ro<lb ed="#B"/>gasset 
+          ut authorum nostrae religionis ei indicem texereum, inter caeteros tracta<lb ed="#B"/>tores 
+          posui, et hunc librum a Pamphilo editum, ita putans esse, ut a te et tuis 
+          <lb ed="#B"/>discipulis fuerat divulgatum: sed cum ipse dicat <name>Eusebius</name>, <name>Pamphilum</name> ni<lb ed="#B"/>hil 
+          scripsisse, exceptis epistolis etc. Et primus liber, sex voluminum <name>Euse<lb ed="#B"/>bii</name>, 
+          eadem et iisdem verbis contineat, quae sub nomine Pamphili a te ficta 
+          <lb ed="#B"/>sunt, perspicuum est te, idcirco librum hunc disseminare voluisse, ut sub 
+          <lb ed="#B"/>persona martyris, haeresim produceres, cum et de ipso, quem <name>Pamphili</name> simu<lb ed="#B"/>las, 
+          multa perverteris, et aliter in Graeco, et aliter in Latino sit. In Apolo<lb ed="#B"/>gia 
+          autem ad Occeanum et Pammachium responsiva, in qua ostendit se do<pb ed="#B" n="201"/><lb ed="#B"/>ctrinam 
+          <name>Origenis</name>, et non dogma sectatum, sic inquit, de eodem libro <name>Pam<lb ed="#B"/>phili</name> 
+          loquens. Videtur vel <name>Didymi</name>, vel cuiuslibet alterius fuisse opuscu<lb ed="#B"/>lum, 
+          si concedamus ex superfluo, ut <name>Pamphili</name> sit, sed necdum martyris, an<lb ed="#B"/>te 
+          enim scripsit, quam martyrium perpetravit. Et quomodo, inquies, Marty<lb ed="#B"/>trio 
+          dignus fuit, scilicet ut martyrio deleret errorem. <!-- Jerome quote --> haec <name>Hieronymus</name> ad ver<lb ed="#B"/>bum 
+          diversis in locis, prout allegatum est, de isto libro <name>Pamphili</name>.</p> 
+        <p xml:id="pdma-d7-d1e4200">
+          <name>Ruffinus</name> 
+          <lb ed="#B"/>autem comprobans librum <name>Pamphili</name> martyris esse, et ad <name>Origenis</name> facere de<lb ed="#B"/>fensionem, 
+          in secundo libro invectivo contra <name>Hieronymum</name>, postquam dixit, sic 
+          <lb ed="#B"/>de quolibet opere faciliter dici posse, quod eius non sit authoris, cui ascribi<lb ed="#B"/>tur, 
+          sic deinde inquit. Sed ponamus, quod non sit martyris libellus iste, sed cu<lb ed="#B"/>iuscumque 
+          unius de Ecclesia, nunquid suis verbis usus est, quisquis ille est scri<lb ed="#B"/>ptor, 
+          ut meritis cedendum videatur authrois. De ipsis <name>Origenis</name> volumini<lb ed="#B"/>bus 
+          ponit exempla. et quid de singulis sentiat, non suis defensoriis verbis, sed 
+          <lb ed="#B"/>eius ipsius, qui accusatur, ostendit et ideo superflua est de authore quaestio, 
+          <lb ed="#B"/>ubi defensio talis est, quae assertore non egeat, <!--end quote from Ruffinus --> haec <name>Ruffinus</name>
+        </p>
+        <p xml:id="pdma-d7-d1e4243">
+          Ad ea autem 
+          <lb ed="#B"/>quae dicit <name>Hieronymus</name> responderet forte aliquis sic pro <name>Ruffino</name>, primo 
+          <lb ed="#B"/>cum dicit <name>Eusebium</name> sex libros scripsisse, in quibus Origenem probat Ar<lb ed="#B"/>rianum, 
+          et horum primum conversum a <name>Ruffino</name> sub nomine <name>Pamphili</name>. 
+          <lb ed="#B"/>Quomodo hoc potest stare, quod liber <name>Pamphili</name> sit primus <name>Eusebii</name>, cum 
+          <lb ed="#B"/>diversa omnino et pugnantia intendantur in illis libris? nam <name>Eusebius</name> per te 
+          o <name>Hieronyme</name>, suis libris conatur probare, <name>Origenem</name> esse <name>Arrianum</name>. in li<lb ed="#B"/>bro 
+          autem <name>Pamphili</name>, nihil aliud agitur, quam ut probetur, <name>Origenem</name> Arria<lb ed="#B"/>num 
+          non fuisse, sed quaecunque haeresim <name>Arrii</name> confirmantia in eius libris, in<lb ed="#B"/>veniuntur 
+          ab ipsis Arrianis qualis et <name>Eusebius</name> fuit, et multi alii, fuisse in<lb ed="#B"/>serta.
+        </p>
+        <p xml:id="pdma-d7-d1e4313">
+          Diversus ergo omnino sit liber iste ab illo necesse est, <unclear>quid</unclear> diversam pe<lb ed="#B"/>nitus, 
+          immo contrariam agit causam: nec sufficit, si quis dicat illa, quae ad Ar<lb ed="#B"/>rianam 
+          spectabant haeresim, de libro <name>Eusebii</name> fuisse commutata. Nam et quod 
+          <lb ed="#B"/>pertinet ad alias haereses, non potest dicere <name>Hieronymus</name>, Eusebium osten<lb ed="#B"/>disse, 
+          in illis corruptos esse libros <name>Origenis</name>, quia ipsemet in secundo libro 
+          <lb ed="#B"/>contra <name>Ruffinum</name>, dicit, quod praeter id, quod attinet ad filium et spiritum 
+          <lb ed="#B"/>sanctum, in aliis dogmatibus <name>Eusebius</name> et Didymus apertissime in Orige<lb ed="#B"/>nis 
+          sectam concedunt. Quare non bene potest intelligi, quomodo eadem 
+          <lb ed="#B"/>quae in libro <name>Pamphili</name> leguntur, legi poterant in primo <name>Eusebii</name>, nisi forte 
+          <lb ed="#B"/>aliqua communia de <name>Origene</name>, et ad articulum huius conclusionis, de quo 
+          <lb ed="#B"/>agitur non pertinentia, nec videtur adeo mirandum, ut miratur <name>Hierony<lb ed="#B"/>mus</name> 
+          similia aliqua scripsisse <name>Pamphilum</name> et <name>Eusebium</name>, qui ut ipse dicit <name>Hiero<lb ed="#B"/>nymus</name>, 
+          fuerant contubernales, quae potuit Eusebius, vel apud <name>Pamphi<lb ed="#B"/>lum</name> 
+          lecta, in suis etiam libris retulisse, vel ut fit quotidie, similis mentis 
+          <lb ed="#B"/>motu, per se invenisse et excogitasse. Et haec de primo <name>Eusebii.</name>
+        </p>
+        <p xml:id="pdma-d7-d1e4393">
+          Quod au<lb ed="#B"/>tem 
+          dicit <name>Hieronymus</name> scribere <name>Eusebium</name> in vita <name>Pamphili</name>, quod pro<lb ed="#B"/>pter 
+          humilitatem ipse proprii operis, nihil scripsit, exceptis epistolis: 
+          <pb ed="#B" n="202"/>
+          <lb ed="#B"/>et subdit quod <name>Eusebius</name> defensor <name>Origenis</name> et laudator Pamphili hoc di<lb ed="#B"/>cit. 
+          forte responderet <name>Ruffinus</name>, hoc non multum contra se facere, primo, 
+          <lb ed="#B"/>quia et ille tractatulus Pamphili, ad epistolae potius brevitatem, quam ad 
+          <lb ed="#B"/>iusti libri magnitudinem declinat. secundo, quia illa brevis pro Origine 
+          <lb ed="#B"/>Apologia, non recte fortasse dici potest opus proprium, cum ibi nihil do<lb ed="#B"/>gmatizet 
+          <name>Pamphilus</name>, imo nec quaestio ibi de re, in universum tractet ali<lb ed="#B"/>qua, 
+          sed de particulari tantum homine, id est de Origine breviter agatur, 
+          <lb ed="#B"/>fuerint libri eius corrupti necne, quod scribere non est proprii operis ali<lb ed="#B"/>qua, 
+          sed de particulari tantum homine, id est de Origine breviter agatur, 
+          <lb ed="#B"/>fuerint libri eius corrupti necne, quod scribere non est proprii operis ali<lb ed="#B"/>quid 
+          condere, nec est ex sua humilitate dogmatistae, vel authoris nomen de<lb ed="#B"/>vitante, 
+          se sublevare. Tertio possibile est, quod et ad notitiam <name>Eusebii</name> iste liber 
+          <lb ed="#B"/>non pervenerit, tum ob libri exiguitatem, tum ob authoris quam ipse affert hu<lb ed="#B"/>militatem, 
+          et nihil magnum scribentis, et tenuia etiam illa et minutula quae 
+          <lb ed="#B"/>scripsit occultantis, potius quam ostentantis. Quarto dicit <name>Ruffinus</name>, pos<lb ed="#B"/>sibile 
+          est etiam, quod <name>Eusebius</name> ut <name>Arrianae</name> perfidiae defensor, librum mar<lb ed="#B"/>tyris, 
+          ui suam sectam <name>Origensi</name> testimonio privabat, non occultare modo vo<lb ed="#B"/>luerit, 
+          sed hac etiam obliqua sua testatione agere, ut non esse Pamphilia po<lb ed="#B"/>steris 
+          crederetur quare quod <name>Hieronymus</name>, quasi ad corroborandum ra<lb ed="#B"/>tionem 
+          suam dicit, Defensor Origines, dicit Pamphilum nihil scripsisse 
+          <lb ed="#B"/>etc potius contra ipsum est quam pro ipso, quia ex quo <name>Eusebius</name> <name>Orige<lb ed="#B"/>nem</name> 
+          ut Catholicum, sed ut <name>Arrianum</name> defendebat, merito in hoc sicut 
+          <lb ed="#B"/>dixi, potuit esse suspectus. Sed quid oportet in his laborare, aut quomodo 
+          <lb ed="#B"/>omnino potest Hieronymus ex Eusebii testimonio probare, illam pro Ori<lb ed="#B"/>gene 
+          Apologiam non esse Pamphili, cum ipse Eusebius in libro sexto hi<lb ed="#B"/>storiae 
+          ecclesiasticae dicat, a sancto Pamphilo martyre scriptam esse Apo<lb ed="#B"/>logiam 
+          pro Origine. Cum autem subdit Hieronymus. Quid facient epi<lb ed="#B"/>stolae 
+          Theophili episcopi? quid papae Anastasii etc? diceret forte Ruffinus, 
+          <lb ed="#B"/>non pugnare librum Pamphili contra primariam illorum intentionem, fuisse 
+          <lb ed="#B"/>enim illorum propositum, haereses illas pessimas, et venenata dogmata cuius<lb ed="#B"/>cunque 
+          essent, extirpare de mundo, quia hoc ad fidem spectbaat, ad religio<lb ed="#B"/>nis 
+          confirmationem et stabilimentum Ecclesiae. Origines autem illa esse, 
+          <lb ed="#B"/>ut credebatur a multis, aut non esse, parum curaturos fuisse religiosissmos 
+          <lb ed="#B"/>pontifices. Quinimo optabile forte illis et acceptissimum fuisse futurum, 
+          <lb ed="#B"/>si certis et validis probari potuisset argumentis, haereticas illas opinio<lb ed="#B"/>nes 
+          non fuisse ab Origine creditas, quia pro fide hoc faceret, non contra 
+          <lb ed="#B"/>fidem, contra haereticos, et non pro haereticis, qui non parum tanti viri, 
+          <lb ed="#B"/>et a Catholicis tantum laudati testimonio innitebantur, et errorem suum 
+          <lb ed="#B"/>illius authoritate defendebant. Quapropter pugnaturum Pamphili li<lb ed="#B"/>brum 
+          contra illas epistolas, si in illo haereses, quas illi accusabant excusa<lb ed="#B"/>rentur. 
+          non autem, si id totis in eo agitur viribus, ut illarum assertores tam 
+          <lb ed="#B"/>bono patrono priventur, quem si illae prosequuntur epistolae, certum est, 
+          <lb ed="#B"/>quod non nisi, ut illarum creditum opinionum haeresiarcham prosequuntur.
+        </p>
+        <p xml:id="pdma-d7-d1e4546">
+          <pb ed="#B" n="203"/>Ad eam autem quae in secundo libro affert <name>Hieronymus</name> sic fortasse responde<lb ed="#B"/>retur. 
+          Primo, cum dicit, se etiam aliquando credidisse, et ita scripsisse illum 
+          <lb ed="#B"/>esse Pamphili librum, priusquam apud Eusebium legisset, Pamphilium nihil 
+          <lb ed="#B"/>scripsisse et caetera. Ex hoc suo dicot, forte sic contra eum argumentaretur 
+          <lb ed="#B"/><name>Ruffinus</name>. Si lectum o <name>Hieronyme</name> Pamphili librum, Pamphili esse aliquan<lb ed="#B"/>do 
+          et credidisti et scripsisti, dic quaeso, quae in eo legebas mendacianae, et 
+          <lb ed="#B"/>haereses, aut haeresum sauores esse cognoscebas? an potius vera vel verisi<lb ed="#B"/>milia, 
+          et catholicam fidem nihil laedentia? si falsa et haeretica, quo pacto ad<lb ed="#B"/>duci 
+          poteras, ut crederes authorem libri esse catholicum Matyrem, de cuius 
+          <lb ed="#B"/>testimonio et dictis, nihil sinistre sine flagitio suspicari quis posset? Si ve<lb ed="#B"/>ro 
+          et catholica, et denique Christiano martyre digna, cur nunc ipsa dam<lb ed="#B"/>nas 
+          et commentitia dicis? et ad introducendas haereses disseminata? et bre<lb ed="#B"/>viter, 
+          cur indigna martyre nunc iudicas? quae tunc martyre digna iudica<lb ed="#B"/>sti: 
+          cum eadem sint, quae nunc legis, et quae tunc legabas, quasi dicamus, 
+          <lb ed="#B"/>ipsum authoris titulum secludentes, ipsa, quae ibi in defensionem Orige<lb ed="#B"/>nis 
+          dicuntur, secundum se consideremus. si mala sunt, cur tunc sancti mar<lb ed="#B"/>tyris 
+          esse iudicasti? si bona, cur etiam nunc cuiuscunque sint, pro bonis non 
+          <lb ed="#B"/>acceptantur?
+        </p>
+        <p xml:id="pdma-d7-d1e4596">
+          Praeterea quomodo potes o Hieronyme dicere, ad introdu<lb ed="#B"/>cendas 
+          haereses, me librum disseminasse? cum in eo libro, nihil aliud aga<lb ed="#B"/>tur 
+          (ut supra etiam dictum est) nisi ut haeretici, <name>Origenis</name> testimonio, se 
+          <lb ed="#B"/>corroborare non possint, quod ad evellendam facit, non ad disseminan<lb ed="#B"/>dam 
+          haeresim. Praeterea non solum Latinus invenitur iste liber, sed Grae<lb ed="#B"/>cus. 
+          ego <name>Ruffinus</name> Latinum feci ex Graeco transferendo, Graecum quis edi<lb ed="#B"/>dit 
+          si non Pamphilus? non ego utique Ruffinus secundum te, qui me de insci<lb ed="#B"/>tia 
+          arguis Graecarum literarum, librum tam Graece et tam facundae scribere 
+          <lb ed="#B"/>potui, ut <name>Eusebii</name> stylum aequaret. si alius proferatur ille respondet Hiero<lb ed="#B"/>nymus 
+          quod Dydimi est, vel alicuius alterius: instabat <name>Ruffinus</name>. Quis<lb ed="#B"/>quis 
+          sit, ille alius iam, non ego <name>Ruffinus</name>, sed alter huius criminis reus te<lb ed="#B"/>nebitur, 
+          et si Didymus est mendax secundum te, et deceptor est Didymus 
+          <lb ed="#B"/>praeceptor tuus o <name>Hieronyme</name>, quem tu et prophetam videntem, et oculum 
+          <lb ed="#B"/>habentem sponsae, de cantico canticorum, et apostolicum virum in tuis li<lb ed="#B"/>bris 
+          nominasti, mendax, inquam, ipse, qui ipsum Graecum edendo falso Pam<lb ed="#B"/>philo 
+          adscripsit, non ego, qui inventum Graecum titulo Pamphili, sub 
+          <lb ed="#B"/>eiusdem authoris titulo, transferend communicavi Latinis. nec mirum 
+          <lb ed="#B"/>tibi esse debet, quod ego <name>Didymo</name> in hac re crediderim, cui tu in scriptura<lb ed="#B"/>rum 
+          explanatione credidisti. Quod autem dicit, quod aliter in Latino sit, 
+          <lb ed="#B"/>aliter sit in Graeco. Diceret <name>Ruffinus</name>, Cur locos non profers o <name>Hierony<lb ed="#B"/>me</name> 
+          male interpretatos, an ideo ne me a culpa asserere possim, sicut et tun, 
+          <lb ed="#B"/>cum <name>Augustinus</name> ad te scribat quaedam, de tua ex Haebraeo interpretatio<lb ed="#B"/>ne 
+          damnari, et locos non ponit, dicis ideo factum, ne te posis defende<lb ed="#B"/>re, 
+          et veritatem tuae interpretationis comprobare. Quare quod tibi, di<pb ed="#B" n="204"/><lb ed="#B"/>ceret 
+          <name>Ruffinus</name>, licuit de <name>Augustino</name>, liceat et mihi quoque de te o <name>Hierony<lb ed="#B"/>me</name> 
+          suspicari. Haec sunt dicta de dissentione <name>Hieronymi</name> et <name>Ruffini</name>, de li<lb ed="#B"/>bro 
+          Pamphili, in qua ego sicut et in aliis omnibus, Hieronymi iudicium, 
+          <lb ed="#B"/>iudicio Ruffini semper antepono. Secundum quod ad possibilitatem huius 
+          <lb ed="#B"/>affertur, quod Origines libri sint corrupti, hoc est, quod hoc similiter vi<lb ed="#B"/>demus 
+          accidisse multis aliis libris Catholicorum doctorum. nam <name>Clemens</name> 
+          <lb ed="#B"/>apostolorum discipulus, qui Romanae ecclesiae post Apostolos episcopus 
+          <lb ed="#B"/>et martyr fuit, libros edidit, qui appellantur Recognitio, in quibus cum ex 
+          <lb ed="#B"/>persona Petri, doctrina quasi vere Apostolica exponatur, in aliquibus ita 
+          <lb ed="#B"/>Eunomii dogma inseritur, ut nullus alius quam ipse Eunomius disputa<lb ed="#B"/>re 
+          credatur, filium Dei creatum de nihilo dicens. Item in Clementis Ale<lb ed="#B"/>xandrinae 
+          ecclesiae presbyteri, viri catholici, invenitur scriptum Dei filium 
+          <lb ed="#B"/>esse creatum. et in <name>Dionysii</name> Alexandrinae urbis episcopi quatuor libris, 
+          <lb ed="#B"/>ubi contra <name>Sabellum</name> disputat, est <name>Arriani</name> dogmatis comprobatio. Et quid 
+          <lb ed="#B"/>oportet apostolicos proferre viros? cum sciamus ipsa Evangelia, et ipso<lb ed="#B"/>rum 
+          apostolorum dicta, ab haereticis saepe fuisse depravata, ut maxime ex 
+          <lb ed="#B"/>libro Tertulliani contra Marcionem cuilibet constare potest. quod ergo il<lb ed="#B"/>lorum 
+          contigit libris, cur non et Origenis libris potuit contigisse? et om<lb ed="#B"/>nino 
+          in simili causa, cur per omnia similis non acceptatur excusatio? quae 
+          <lb ed="#B"/>ideo etiam de Origensi libris videtur magis acceptanda, quod ipsemet vi<lb ed="#B"/>vens 
+          adhuc, de hoc in suis epistolis, ut infra patebit conquaeritur, corrum<lb ed="#B"/>pi, 
+          scilicet et depravari ab haereticis libros suos. Quod si hoc pro impossi<lb ed="#B"/>bili 
+          habet Hieronymus, illud afferens, quod sic quicquid in libris omnium 
+          <lb ed="#B"/>reperitur, ab aliis dici possit esse corruptum, et quod difficile est omnia 
+          <lb ed="#B"/>exemplaria posse vitiari: nescio quo pacto ipse respondere poterit, Euno<lb ed="#B"/>mianis 
+          comprobantibus, dogma suum testimonio <name>Clementis</name> apostolo<lb ed="#B"/>rum 
+          discipuli, in quibus invenitur expresse scriptum, filium Dei esse crea<lb ed="#B"/>tum. 
+          Nam si ipse ad haec recurrerit, corruptos libros Clementis, ab ipsis 
+          <lb ed="#B"/>haereticis, ipsius <name>Hieronymi</name> verbis hoc arguent esse impossibile, illa et ip<lb ed="#B"/>si 
+          dicentes sic, scilicet quicqui reperitur in lbiros omnium, ab aliis corru<lb ed="#B"/>ptum 
+          dici posse: et impossibile esse omnia exemplaria esse corrupta. quare 
+          <lb ed="#B"/>forte cavendum est, ne dum haereticum omnino facere volumus Orige<lb ed="#B"/>nem, 
+          haereticos Apostolos, haereticosque spostolorum discipulos esse facia<lb ed="#B"/>mus. 
+          nam cum nihil minus detestandae et execrandae haereses, non minus 
+          <lb ed="#B"/>impia dogmata, in illorum inveniantur libris, quam in libris Origenis, 
+          non video, cur non vel similiter accusentur, vel excusentur similiter. <name>Hie<lb ed="#B"/>ronymus</name> 
+          autem de libris <name>Clementis</name> et aliorum corruptione, his verbis 
+          <lb ed="#B"/>respondet. Et quomodo, inquies, in libris eorum vitiosa non nulla sunt, 
+          <lb ed="#B"/>si me causas vitiorum nescire respondero, non statim illos haereticos iudi<lb ed="#B"/>cabo, 
+          fieri enim potest, ut vel simpliciter erraverint, vel alio sensu scripse<lb ed="#B"/>rint, 
+          vel a librariis imperitis, eorum paulatim scripta corrupta sint, vel in<pb ed="#B" n="205"/><lb ed="#B"/>nocenter 
+          quaedam, et minus caute <sic>loquuti</sic> sint, et quae non possit perver<lb ed="#B"/>sorum 
+          hominum calumniam declinare. Huic autem <name>Hieronymi</name> respon<lb ed="#B"/>sioni, 
+          sic forte responderet <name>Ruffinus</name>: sic, ut non propterea, quod in eorum 
+          <lb ed="#B"/>libris vitiosa nonnulla sunt, etiam si causas vitiorum nescias, non statim vis 
+          <lb ed="#B"/>illos haereticos iudicare, cur visis aliquibus in Origenis libro vitiosis, qui<lb ed="#B"/>bus 
+          etiam alibi ipsum legis contradicentem <name>Origenm</name>, statim haereticum 
+          <lb ed="#B"/>iudicas? quae est causa dissimilitudinis maxime cum et in Origene eam in<lb ed="#B"/>genii 
+          sublimitatem, eum fidei zelum, tale ac tantum scripturarum studium, 
+          <lb ed="#B"/>et tu noveris fuisse, et scripseris et praedicaveris, ut non immerito in co<lb ed="#B"/>dicibus 
+          undecumque potius, quam in mente eius vitium fuisse suspicari pos<lb ed="#B"/>sis? 
+          Praetera sicut fieri potuit, secundum te, ut illi vel simpliciter erraverint, 
+          <lb ed="#B"/>vel alio sensu scripserint, vel innocenter et minus caute loquuti sint: cur 
+          <lb ed="#B"/>non fieri potuit similiter ut <name>Origenes</name> vel simpliciter erraverit, vel alio sen<lb ed="#B"/>su 
+          scripserit (ut contendit <name>Didymus</name> vel innocenter et minus caute lo<lb ed="#B"/>quutus 
+          sit quaedam, quae non possunt perversorum hominum calumniam 
+          <lb ed="#B"/>declinare? Et sicut a librariis imperitis dicis, potuisse illorum scripta cor<lb ed="#B"/>rumpi, 
+          cur non similiter vel ab imperitis librariis, vel a perfidis haereticis 
+          <lb ed="#B"/>scripta Origensi potuerunt corrumpi? omnino dissimilitudinis causa non 
+          <lb ed="#B"/>apparet. Refert etiam <name>Ruffinus</name>, quod liber <name>Hilarii</name> confessoris, post <name>Ari<lb ed="#B"/>minensem</name> 
+          synodum, fuit falsatus ab haereticis, et quod ob hanc causam, 
+          <lb ed="#B"/>cum in concilio episcoporum ei quaestio moveretur, proferri librum de do<lb ed="#B"/>mo 
+          sua iussit, qui nesciente se, in scriniis suis haereticus tenebatur. et dicit, 
+          <lb ed="#B"/>quod cum prolatus fuisset, et ab omnibus haereticus iudicatus author li<lb ed="#B"/>bri, 
+          Hilarius excommunicatus discesserit de concilio. hoc esse falsum et fin<lb ed="#B"/>ctum 
+          in calumniam <name>Hilarii</name> dicit <name>Hieronymus</name>, nihil aliud afferens. sed ve<lb ed="#B"/>rum 
+          fuerit nec ne, non bene scire potest, nec multum ad <name>Origenis</name> attinet 
+          <lb ed="#B"/>defensionem, hoc est verum, quod <name>Ruffinus</name> hoc de <name>Hilario</name> recitaturus, haec 
+          <lb ed="#B"/>verba praefatur: Et ne quid aperte credulitati desit, res adhuc quae quae sunt me<lb ed="#B"/>moriae 
+          nostrae retexam, quo testimonii veritas neminem lateat. quare vel 
+          <lb ed="#B"/>verum fuit, vel magna fuit <name>Ruffini</name> impudentia, in re tam recentis memoriae, 
+          <lb ed="#B"/>apertum mendacium et novam texere fabellam. sed sive verum sit sive fal<lb ed="#B"/>sum, 
+          non videtur in Hilarii calumniam vel fictum vel recitatum, quia po<lb ed="#B"/>tius 
+          illos, qui <name>Hilarii</name> librum depravaverant, quam ipsum <name>Hilarium</name> calu<lb ed="#B"/>mniatur, 
+          quem innocentem haeresis fuisse, et iniuste excommunicatum, et 
+          <lb ed="#B"/>subdole deceptum attestatur. Post haec rectitat <name>Ruffinus</name>, quod <name>Tertulliania</name> 
+          <lb ed="#B"/>liber, cuius est titulus de Trinitate, subm nomine Cypriani martyris, Con<lb ed="#B"/>stantinopoli 
+          a Macedonianae partis haereticis legebatur. <name>Hieronymus</name> di<lb ed="#B"/>cit 
+          quod nec liber est <name>Tertulliani</name>, nec dicitur <name>Cypriani</name>, sed Novatiani. 
+          <lb ed="#B"/>neuter eorum aliud pro se affert. nisi quod <name>Hieronymus</name> dicit, quod autho<lb ed="#B"/>ris 
+          eloquium, styli proprietatem demonstrat, Quanquam et in multis sae<lb ed="#B"/>pe 
+          est deprehendere, similem styli faciem et tenorem: sed haec nihil ad Ori<pb ed="#B" n="206"/><lb ed="#B"/>genem. 
+          Ipse
+        </p>
+        <!-- jump to page 213 -->
+        <p xml:id="pdma-d7-d1e4978">
+          <pb ed="#B" n="213"/>
+          <lb ed="#B"/>sit macula, sed firmum propositum, de illis credere semper consonae scri<lb ed="#B"/>pturae 
+          et ecclesiae, ille nec peccat mortaliter, nec haereticus proprie est di<lb ed="#B"/>cendus. 
+          Ex qua propositione, sequitur correlarie, possibile esse, quod opi<lb ed="#B"/>nari 
+          aliquam opinionem, aliquo tempore sit peccatum mortale, quod non 
+          <lb ed="#B"/>erit alio tempore: et hoc st, quia potest quis sine pertinacia credere aliquid 
+          <lb ed="#B"/>uno tempore, quod alio tempore non crederet sine pertinacia, ut puta, post 
+          <lb ed="#B"/>determinationem Ecclesiae, aut sacrae scripturae dilucidationem. de op<lb ed="#B"/>posito 
+          crediti, attestatur sententia omnium doctorum, dicentium: Quod non 
+          <lb ed="#B"/>praecise error intellectus, facit hominem haereticum, sed oportet quod sit 
+          <lb ed="#B"/>malicia et perversitas in voluntate. Ideo dicebat <name ref="#Augustine">Augustinus</name>: Errare pos<lb ed="#B"/>sum 
+          haereticus esse non possum.
+        </p>
+        <p xml:id="pdma-d7-d1e5010">
+          Confirmatur hoc ex determinatione uni<lb ed="#B"/>versalis 
+          Ecclesiae, quae multos canonizavit, qui tamen usque ad mortem perse<lb ed="#B"/>veraverunt 
+          in erroneis opinionibus de fide, et deinde per ecclesiam pro hac 
+          <lb ed="#B"/>reticis rerpobatis, quas opiniones nusquam legitur ab illis fuisse retracta<lb ed="#B"/>tas. 
+          Tales fuerunt Papias Episcopus Hieropolitanus, Victorinus Picta<lb ed="#B"/>vensis, 
+          Hireneus Lugdunensis, <name>beatus Cyprianus</name>, et multi alii, quos sci<lb ed="#B"/>mus 
+          errasse in fide, et eorum opiniones pro haereticis condemnatas, et 
+          <lb ed="#B"/>tamen ipsi habentur in canone sanctorum, ex quo sequitur, ut necessario 
+          <lb ed="#B"/>dicendum sit, quod vel illi etiam, quod decesserint in illis opinionibus er<lb ed="#B"/>roneis 
+          in fide, non tamen decesserint in peccato mortali. vel quod ecclesia 
+          <lb ed="#B"/>erraverit in eorum canonizatione, quod si dixerint (ut etiam dixit quidam 
+          <lb ed="#B"/>ex his qui me impugnabant) respondens, Quod illi forte non erant bene 
+          <lb ed="#B"/>canonizati: iam non ego, sed ipsi sentiunt contra determinationem univer<lb ed="#B"/>salis 
+          Ecclesiae. Ex hac autem propositione infero, ad propositum Orige<lb ed="#B"/>nis 
+          sic: Quod dato etiam, quod <name>Origenes</name> multas et plurimas habuerit opi<lb ed="#B"/>niones 
+          erroneas in fide, hoc praecise, si in voluntate eius nulla fuit macula, ali<lb ed="#B"/>quo 
+          modo non potest esse argumentum, quod anima eius sit damnata. Ut 
+          <lb ed="#B"/>sic arguatur, Aut quantumcunque magnus error, de quibuscunque rebus fi<lb ed="#B"/>dei, 
+          sit in intellectu alicuius, modo in voluntate nulla sit macula, non im<lb ed="#B"/>pedit 
+          salutem eius, aut quantumcunque parvus, et de quacunque re sit im<lb ed="#B"/>pedit, 
+          aut aliquis impedit, et aliquis non impedit. Si quantumcunque ma<lb ed="#B"/>gnus 
+          sit non impedit, ergo etiam, quod <name>Origenes</name> et in multis erraverit, et in 
+          <lb ed="#B"/>principalioribus illa tamen, si fuit voluntas eius bene disposita, et nullo mo<lb ed="#B"/>do 
+          maculata, nihil impedivit eius salutem. et ita qui volunt convincere dam<lb ed="#B"/>nationem 
+          eius, non sufficit quod ostendant errores eius, et perserverantiam 
+          <lb ed="#B"/>in eis: sed oportet, quod ostendant perserverantiam, cum pertinacia, aut ne<lb ed="#B"/>gligentia, 
+          vel alia malitia voluntatis. Si quantumcunque parvus sufficit, er<lb ed="#B"/>go 
+          error de rebaptizandis haereticis, debuit impedire salutem Cypriani, 
+          <lb ed="#B"/>et haeresis illorum, qui dicuntur Chiliastae, debuit impedire salutem Pa<lb ed="#B"/>piae, 
+          qui fuit author illius haeresis, et cum illa decessit: et si sic ergo male 
+          <lb ed="#B"/>ab ecclesia fuerunt canonizati. Si aliquis impedit, et aliquis non, dicant 
+          <pb ed="#B" n="214"/>oportet, qui sunt illi errores qui impediunt, et qui non. et ubi unquam in<lb ed="#B"/>venitur 
+          facta ista distinctio ab Ecclesia
+          
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
