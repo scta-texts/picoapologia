@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Apologia, Disputatio 8</title>
-        <author xml:id="PicoDellaMirandoal">Pico della Mirandola</author>
+        <author xml:id="PicoDellaMirandola">Pico della Mirandola</author>
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
@@ -49,23 +46,209 @@
     </front>
     <body>
       <div xml:id="pdma-d8">
-        <head>Apologia, Disputatio 8 [Basel 1557 Transcription]</head>
-        <p>
+        <head xml:id="pdma-d8-Hd1e95">Apologia, Disputatio 8 [Basel 1557 Transcription]</head>
+        <p xml:id="pdma-d8-d1e98">
           <lb ed="#B"/>Sicut nullus praecise, sic opinatur, quia vult sic opinari: ita nullus cre<lb ed="#B"/>dit, 
           sic esse verum praecise, quia vult sic credere. Ex hac conclusione 
           <lb ed="#B"/><sic>correlarie</sic> infero istam. Non est in libera potestate hominis credere 
           <lb ed="#B"/>articulum fidei esse verum, quando sibi placet, et credere eum non esse ve<lb ed="#B"/>rum, 
           quando sibi placet.
         </p>
-        <p>
+        <p xml:id="pdma-d8-d1e113">
           Iudicaverunt isti Magistri, quod propositio cum 
           <lb ed="#B"/>suo correlario esset erronea et haeresim sapiens. ergo autem reputo, conclu<lb ed="#B"/>sionem 
           principalem esse, non solum catholicam, sed verissimam, et lon<pb ed="#B" n="225"/><lb ed="#B"/>ge 
           veriorem sua opposita: et idem dico de correlario sane intellecto, cuius 
           <lb ed="#B"/>sensus, si secundum mentem meam accipitur, non est aliter accipiendus, 
-          <lb ed="#B"/>quam ut sequitur ex principali conclusione, cuius ponitur esse correlarium
-        </p>
+          <lb ed="#B"/>quam ut sequitur ex principali conclusione, cuius ponitur esse correlarium. 
+          <lb ed="#B"/>Quod autem conclusio non solum sit catholica, sed etiam sit verissima, pa<lb ed="#B"/>tet, 
+          nam pro prima eius parte, quae est, quod nullus opinatur aliquid sic es<lb ed="#B"/>se 
+          praecise, quia vult sic opinari, est <name>Aristoteles</name>, secundo <title>de Anima</title> textu 
+          <lb ed="#B"/>Commenti 253. ubi <name>Aristoteles</name> ponit differentiam, inter imaginationem 
+          <lb ed="#B"/>et opinionem. et haec <name>Aristoteles</name> non solum non est reprobata, 
+          <lb ed="#B"/>sed imo ab omnibus nostris Theologis unanimiter approbata. Secunda 
+          <lb ed="#B"/>autem pars conclusionis, quae est, Quod nullus credit aliquid esse prae<lb ed="#B"/>cise 
+          verum, quia vult credere id everum, est <name>Augustini</name> in pluribus lo<lb ed="#B"/>cis, 
+          qui hoc saepius dicit, Quod non potest aliquis credere ex libero arbi<lb ed="#B"/>trio, 
+          id est ex mero imperio voluntatis, sine rationis persuasione aut mo<lb ed="#B"/>tivo, 
+          et totam conclusionem meam, in qua summarie tenetur ista opinio, 
+          <lb ed="#B"/>quod proposita aliqua propositione dubia, ad hoc, quod aliquis eam cre<lb ed="#B"/>dat 
+          vel discredat, non sufficit mera apprehensio terminorum, et merum 
+          <lb ed="#B"/>imperium voluntatis. tenent <name ref="#PetrusDeAilly">Petrus de Alliaco</name>, <name ref="#Oyta">Henricus Haeta</name>, et Hen<lb ed="#B"/>ricus 
+          de Assia, et quando ego fui Parisius, tenebat fere tota universitatis Pa<lb ed="#B"/>risiensis, 
+          cum pluresque etiam catholici doctores, ita habent pro vera, ut 
+          <lb ed="#B"/>suam oppositam habeant pro impossibili, imo ergo, adhuc non legi do<lb ed="#B"/>ctorem 
+          contradicentem, huic opinioni. Correlaria atuem propositio, non 
+          <lb ed="#B"/>aliter est intelligenda et accipienda, quam cum restrictione vel determina<lb ed="#B"/>tione 
+          posita. in antecedente, sic videlicet, quod non est in libera potestate 
+          <lb ed="#B"/>voluntatis, credere articulum fidei esse verum, quandocunque placet, et cre<lb ed="#B"/>dere 
+          eum esse falsum, quando placet, ita quod non praecise ex eo, quod vo<lb ed="#B"/>luntati 
+          placet, ut intellectus credat, ipse credit, nec talis intellectus unius 
+          <lb ed="#B"/>propositionis, per aliam ei concatenatam est inusitatus; imo in scriptura sa<lb ed="#B"/>cra, 
+          saepe sumitur intellectus literae, per praecedentia vel sequentia: quod 
+          <lb ed="#B"/>maxime in casu nostro debet fieri, quia ergo hoc dictum, non est in pote<lb ed="#B"/>state 
+          nostra etc. Non pono, tanquam dictum per se, et conclusionem se<lb ed="#B"/>paratam, 
+          sed pono tanquam correlariam ex praecedenti: quod si non pla<lb ed="#B"/>cet 
+          eis accipere intellectum praesentis correlarie, ex sua principali, cui ipsa 
+          <lb ed="#B"/>annectitur, et concatenatur, attendant, quod dupliciter dicitur, aliquid es<lb ed="#B"/>se 
+          in libertate, vel in libera potestate voluntatis. uno modo: Quia posita ap<lb ed="#B"/>prehensione 
+          in intellectu, nullo alio actu intellectus requisito, in potestate 
+          <lb ed="#B"/>imperativa voluntatis sit, ponere actum illum, et sic negatur in hac conclu<lb ed="#B"/>sione, 
+          quod actus credendi, in libera est potestate hominis, nec oportet om<lb ed="#B"/>nem 
+          actum praecepti, aut meritorium, vel demeritorium taliter esse in po<lb ed="#B"/>testate 
+          hominis, ad credendum enim non sufficit, apprehensio terminorum 
+          <lb ed="#B"/>articuli, sed ultra requiritur persuasio, aut aliqua ratio probabilis, ut allegatum 
+          <lb ed="#B"/>est ex <name>Augustino</name>. Alio modo aliquid dicitur esse in libera potestate voluntatis 
+          <pb ed="#B" n="226"/>
+          <lb ed="#B"/>quia omnibus aliis positis, quae requiruntur ad hoc, quod ille actus sit, potest 
+          <lb ed="#B"/>voluntas illum ponere in esse, et non ponere: nec ad istum actum necessita<lb ed="#B"/>tur 
+          voluntas, etiam quibuscunque aliis positis. et hoc modo actus credendi 
+          <lb ed="#B"/>articulum, est in libera potestate voluntatis: iste est intellectus correlariae 
+          <lb ed="#B"/>propositionis, et ex dictis potest quilibet, qui habet intellectum, cognosce<lb ed="#B"/>re, 
+          quod non bene isti Magistri absolute dixerunt, illam esse erroneam et hae<lb ed="#B"/>resim 
+          sapere. Quod autem probabilis rationabilisque sit opinio illorum do<lb ed="#B"/>ctorum, 
+          quos ego sequor, qui scilicet dicunt, ad causandum assensum fi<lb ed="#B"/>dei, 
+          non sufficit sola apprehensio terminorum, cum imperio voluntatis, 
+          <lb ed="#B"/>potest evidenter patere, non solum authoritate <name>Augustini</name>, multis ut dixi 
+          <lb ed="#B"/>hoc in locis affirmantis, sed etiam efficacissimis rationibus. et primo ar<lb ed="#B"/>guitur 
+          sic. Non est in libera potestate hominis, opinari sic vel sic esse cum 
+          <lb ed="#B"/>vult. ergo non est in libera potestate hominis, credere sic vel sic esse cum 
+          <lb ed="#B"/>vult patet consequentia. Quia, si de quo magis videtur inesse, et non inest, 
+          <lb ed="#B"/>ergo etc. sed minus est adhaerere alicui, cum formidine ad oppositum, 
+          <lb ed="#B"/>quam sine formidine. ergo antecedens est expressum ab <name>Aristotele</name>, in 2 
+          <lb ed="#B"/><title>de Anima</title> textu commenti 153 et patet per experientiam. quia quilibet 
+          <lb ed="#B"/>in se experitur, quod oblata ei propositione dubia, si et ei mere dubia ad 
+          <lb ed="#B"/>neutram partem opinandam per assensum inclinatur, donec ei nova su<lb ed="#B"/>pervenerit 
+          apparentia, vel per <sic>sylogisticam</sic> rationem, vel per intuitivam 
+          <lb ed="#B"/>notitiam, per testimonium multorum, vel per authoritatem dicentis, 
+          <lb ed="#B"/>vel aliud simile. Secundo, sic arguitur, Non est in potestate hominis libe<lb ed="#B"/>ra, 
+          facere apparere aliquid suo intellectui esse verum, et facere apparere 
+          <lb ed="#B"/>non esse verum. ergo, non est in potestate hominis, sic vel sic credere esse, 
+          <lb ed="#B"/>vel non esse verum. tenet consequentia: quia est contradictio, aliquem cre<lb ed="#B"/>dere 
+          aliquid, et assentiri illi, et illud ei non apparere esse verum. Assum<lb ed="#B"/>ptum 
+          probatur, quia hoc vel hoc apparere, tale vel tale intellectui, est hoc 
+          <lb ed="#B"/>vel hoc taliter vel taliter repraesentari intellectui. et hoc non potest depen<lb ed="#B"/>dere 
+          ex imperio voluntatis, quia hoc praecedit actum voluntatis. Confir<lb ed="#B"/>matur, 
+          quia hoc apparere tale intellectui est, quia obiectum, quod reprae<lb ed="#B"/>sentatur 
+          est tale. et evidentia, vel aliud quicquid sit illud, quod id facit cre<lb ed="#B"/>dibile, 
+          vel non credibile, est tale et intellectus est talis. sed facere obiectum esse 
+          <lb ed="#B"/>tale, vel intellectum esse talem, non est in arbitrio voluntatis. Ergo, rem ta<lb ed="#B"/>lem 
+          vel talem apparere intellectui non est in imperio voluntatis.</p> 
         
+        <p xml:id="pdma-d8-d1e323">Tertio, 
+          <lb ed="#B"/>sic arguitur: Quotiescunque est aliqua potentia mere neutra et indifferens 
+          <lb ed="#B"/>ad duos actus secundos oppositos, non potest exire in aliquem illorum, 
+          <lb ed="#B"/>nisi determinetur prius, per aliquid, quod sit actus primus, vel se habeat 
+          <lb ed="#B"/>loco actus primi, respectu alterius illorum actuum secundorum. sed ita 
+          <lb ed="#B"/>est, quod intellectus est potentia mere neutra, et indiffernes ad specifi<lb ed="#B"/>cationem 
+          alicuius actus sui secundi: ergo ad nullam talem specificatio<lb ed="#B"/>nem, 
+          poterit determinari, nisi adveniente aliquo alio, quod sit vel actus primus 
+          <pb ed="#B" n="227"/>
+          <lb ed="#B"/>primus, vel se habens loco actus primi, respectu talis determinationis. Tunc 
+          <lb ed="#B"/>sub ista ratione assumo, istam consequentiam, Merus actus voluntatis, non 
+          <lb ed="#B"/>potest se habere, ut actus primus, respectu specificationis actuum intelle<lb ed="#B"/>ctus: 
+          ergo, per iperium solum voluntatis, non poterit intelletus determi<lb ed="#B"/>nari 
+          ad talem specificationem, nota est consequentia ex praessumpta ra<lb ed="#B"/>tione. 
+          et antecedens patet, ex communi sententia omnium Doctorum in hoc 
+          <lb ed="#B"/>consentientium. Quod licet acuts intellectus, quo ad exercitium, dependeat 
+          <lb ed="#B"/>a voluntate, non tamen quo ad specificationem. His sic praeceptis, arguo 
+          <lb ed="#B"/>sic ad <sic>propopositum</sic>. Actus, qui est assentire, et actus qui est dissentire, sunt 
+          <lb ed="#B"/>actus habentes rationes specificas oppositas. ergo, ad assensum vel non as<lb ed="#B"/>sensum, 
+          non poterit determinari intellectus, per imperium voluntatis. Er<lb ed="#B"/>go, 
+          ad hoc, quod aliquis per intellectum credat articulum fidei esse verum. 
+          <lb ed="#B"/>vel non credat, non est per hco praecise, quia sic vult, vel non vult credere, sed 
+          <lb ed="#B"/>ex aliquo alio, intellectum ex se neutrum, ad talis actus specificationem de<lb ed="#B"/>terminante. 
+        </p>
+        <p xml:id="pdma-d8-d1e379">
+          <lb ed="#B"/>Quarto, sic arguitur: Ad illud credendum, non determinatur 
+          <lb ed="#B"/>homo praecise, per actum voluntatis: de quo interrogatus, cur illud credi<lb ed="#B"/>dexit, 
+          non assignabit praecisum actum voluntatis. sed ita est, quod interro<lb ed="#B"/>gatus 
+          aliquis, Cur credat potius Christianae fidei, quam fidei Mahumeten<lb ed="#B"/>sium? 
+          non assignabit praecise actum voluntatis: ergo non per praecisum a<lb ed="#B"/>ctum 
+          voluntatis, inclinatus est ille ad credendum: quod autem non assigne<lb ed="#B"/>tur 
+          merus actus voluntatis, patet ex experientia, et ex dictis nostrorum 
+          <lb ed="#B"/>Theologorum, a quibus communiter illa octo allegantur. cur evangelio de<lb ed="#B"/>beamus 
+          credere: Scilicet ponunciatio prophetica, scripturarum concor<lb ed="#B"/>dia, 
+          authoritas scribentium, rationabilitas contentorum, irrationabilitas 
+          <lb ed="#B"/>contentorum, irrationabilitas singulorum errorum, Ecclesiae stabilitas, mi<lb ed="#B"/>raculorum 
+          claritas.
+        </p>
+        <p xml:id="pdma-d8-d1e409">
+          Quinto, sic arguitur: Quotiescunque aliqui duo deter<lb ed="#B"/>minantur 
+          ad credendum opposita, et quilibet illorum praecise per hoc de<lb ed="#B"/>terminatur, 
+          quia vult sic determinari, indifferente ad hoc omnino iudicio 
+          <lb ed="#B"/>vel suasione rationis, non potest dici, quod rationabilius iste moveatur ad 
+          <lb ed="#B"/>credendum quam econtra. sed datis dubous, quorum alter vult credere <c>A</c> 
+          <lb ed="#B"/>esse verum, et alium irrationabilius. ergo illi, ad sic vel sic velle, non determi<lb ed="#B"/>nantur, 
+          quia praecise sic volunt. Maior huius ratiois est nota, quia ut inquit 
+          <lb ed="#B"/><ref xml:id="pdma-d8-Rd1e428"><name>Albertus</name> in 3 de Anima</ref> cum voluntas sic agit praecise quia, vult sic agere, 
+          <lb ed="#B"/>assimilatur tyranno, in cuius actione non quaeritur ratio acti, quia ipsius 
+          <lb ed="#B"/>agere, non est secundum rationem agere, sed agere pro libito. Minor est 
+          <lb ed="#B"/>manifesta: Quia quotidie dicimus Mahumetistas vel Iudaeos irrationabili<lb ed="#B"/>ter 
+          in hoc agere, quod non credunt, et nos rationabiliter, quia credi<lb ed="#B"/>mus: 
+          quod si causa praecisa, quare ego crederem, ille non crederet esse 
+          <lb ed="#B"/>praecise, quia ego vellem, ille non vellet, uterque esset actus tyranni<lb ed="#B"/>cus 
+          <lb ed="#B"/>voluntatis, et in neutro appareret maior vel minor rationabili<pb ed="#B" n="228"/><lb ed="#B"/>tas, 
+          immo et in neutro rationabilitas, sed mera potestas, et imperium ty<lb ed="#B"/>rannicum 
+          voluntatis. Et ex dictis in isto argumento, patebit istis Ma<lb ed="#B"/>gistris, 
+          intellectus brevium verborum, quae dixi in responsione mea, de 
+          <lb ed="#B"/>actu tyrannico voluntatis. Multae aliae possent et pro isto opinione ra<lb ed="#B"/>tiones 
+          adduci: sed non est propositi mei. hic tractare istas materias, et pro<lb ed="#B"/>positas 
+          quaestiones discutere, sed solum ostendere determinationem, con<lb ed="#B"/>clusiones 
+          meas non esse haereticas.
+        </p>
+        <p xml:id="pdma-d8-d1e468">
+          Et licet pro defensione conclusionis meae 
+          <lb ed="#B"/>ista sufficiant, volo tamen et hoc dicere, quod fuit etiam aliquis Doctor, 
+          <lb ed="#B"/>cuius ego, ut de me fatear damnationem in hoc articulo adhuc nusquam le<lb ed="#B"/>gi, 
+          qui simpliciter tenuit, quod actus credendi non esset liber. hoc enim as<lb ed="#B"/>sertive 
+          tenuit <ref xml:id="pdma-d8-Rd1e478"><name ref="#Hocot">Robertus Hocoth</name> Subtilissimus Doctor, ordinis Praedica<lb ed="#B"/>torum, 
+          in suo primo sententiarum</ref>. Et cum arguitur, quod sequeretur actum 
+          <lb ed="#B"/>credendi vel non credendi, non esse meritorium aut demeritorium, dicit, 
+          <lb ed="#B"/>Hanc obiectionem nullam esse et frivolam: quia non ideo aliquis actus 
+          <lb ed="#B"/>est meritorius, quia liber, sed quia conformis est alicui legi, pollicenti prae<lb ed="#B"/>mium 
+          pro eodem actu, ipsi facienti vel alteri. et consequenter dicit, <quote xml:id="pdma-d8-Qd1e494" source="http://scta.info/resource/rh-l1q1-d1e6191">Actum 
+          <lb ed="#B"/>credendi, non ideo esse meritorium, quia liber, sed quia conformis est legi 
+          <lb ed="#B"/>divinae, quae pollicetur tale praemium</quote>, scilicet vitam aeternam cuilibet cre<lb ed="#B"/>denti. posse 
+          autem Deum hanc legem mutare, et statuere, quod quicunque 
+          <lb ed="#B"/>cras caeciderit super lapidem angularem, ex improviso sit salvus: et tunc ca<lb ed="#B"/>sus 
+          ille esset meritorius vitae aeternae, quia actus nostri non ideo sunt meri<lb ed="#B"/>torii, 
+          quia liberi, sed quia a Deo acceptantur ad vitam aeternam, qui Deus 
+          <lb ed="#B"/>ita potest acceptare actus naturales, sicut actus voluntarios, et sic videtur ac<lb ed="#B"/>ceptasse 
+          mortem innocentium, ad vitam aeternam, in quibus nullus fuit 
+          <lb ed="#B"/>ususliberi arbitrii. nec sic faciendo Deus irrationabiliter facit, quia sua vo<lb ed="#B"/>luntas 
+          est sufficiens ratio eorum omnium, quae statuit vel ordinat. Unde 
+          <lb ed="#B"/>concludit <name ref="#Holcot">Holcoth</name>, <quote xml:id="pdma-d8-Qd1e524" source="http://scta.info/resource/rh-l1q1-d1e6334">Quod sit capiamus credere, pro eo quod est cum assen<lb ed="#B"/>su 
+          firmo adhaerere, his de quorum veritate non constat nobis, nisi ex testi<lb ed="#B"/>monio 
+          aliorum (iuxta quem modum desinit <name ref="#Augustine">Augustinus</name> in Omelia super 
+          <lb ed="#B"/>Ioannem dicens. <quote xml:id="pdma-d8-Qd1e535">Quid est fide, nisi credere quod non vides?</quote></quote> Quod talis 
+          <lb ed="#B"/>actus credendi, non est in libera potestate hominis: <quote xml:id="pdma-d8-Qd1e540" source="http://scta.info/resource/rh-l1q1-d1e6362">si autem capiatur cre<lb ed="#B"/>dere, 
+          pro eo quod est assentire quibuscumque revelatis a Deo, et testificatis per 
+          <lb ed="#B"/>miracula, et velle vivere, et operari secundum ea, tum qui ahoc credere in<lb ed="#B"/>cludit, 
+          tam actum intellectus, quam voluntatis</quote>, concedit de eo quod est li<lb ed="#B"/>berum: 
+          iuxta quem modum definiens <ref xml:id="pdma-d8-Rd1e552"><name ref="#Augustine">Augustinus</name> in Omelia super Ioan<lb ed="#B"/>nem</ref>, 
+          dicit, <quote xml:id="pdma-d8-Qd1e559" source="http://scta.info/resource/rh-l1q1-d1e6362">Credere in Deum, est credendo amare. credendo in eum ire cre<lb ed="#B"/>dendo, 
+          ei adhaerere et suis membris incorporari</quote>, et de hac credulitate di<lb ed="#B"/>ctum 
+          est <quote xml:id="pdma-d8-Qd1e566" ana="#gal3_6">Credidit <name>Abraham</name> Deo et reputatum est ei ad iustitiam</quote>. de pri<lb ed="#B"/>ma 
+          autem dicitur <quote xml:id="pdma-d8-Qd1e575" ana="#iac2_19">Daemones credunt, et contremiscunt</quote>: prima est meri<lb ed="#B"/>toria, 
+          secunda non est meritoria. Et cum dicit. <quote xml:id="pdma-d8-Qd1e580">Quod fides non est nisi in 
+            <lb ed="#B"/>volentibus</quote>, dicit <name ref="#Holcot">Holcoth</name>: <quote xml:id="pdma-d8-Qd1e588" source="http://scta.info/resource/rh-l1q1-d1e6887">Quod est intelligendum de fide formata, iuxta 
+          <pb ed="#B" n="229"/>hunc secundum modum, quae est fides operans per dilectionem</quote>: non autem 
+          <lb ed="#B"/>de fide primo modo accepta, quia per miracula visa, vult ipse posse fidelem 
+          <lb ed="#B"/>necessitari ad credendum. quam opinionem ego non credo esse veram, et 
+          <lb ed="#B"/>post quaesitum suum, idem doctor reexaminando non nullas suas opinio<lb ed="#B"/>nes, 
+          dicit, <quote xml:id="pdma-d8-Qd1e602">Quod licet stante evidentia in ratione, quod aliquid non sit cre<lb ed="#B"/>dendum, 
+          voluntas necessitetur ad credendum, tamen quia sic necessitatus, 
+          <lb ed="#B"/>fuit sibi ipsi causa talis necessitatis, ideo imputatur ei ad peccatum</quote>. Dicit 
+          <lb ed="#B"/>autem fuisse sibi causam quia obmisit considerare et perscrutari diligen<lb ed="#B"/>ter, 
+          et discutere illa, quae sibi falsam fecerunt evidentiam, quod si fecisset, 
+          <lb ed="#B"/>non sic apparuisset esse intellectui, sed aliter, et ideo concludit, <quote xml:id="pdma-d8-Qd1e616">Quod cum 
+          <lb ed="#B"/>quis male credit, aut discredit suum primum peccatum est negligentiae</quote>. haec 
+          <lb ed="#B"/>est opinio <name>Roberti Holcoth</name> de Libertate credendi, quaenunquam mihi 
+          <lb ed="#B"/>apparuit bona vel probabilis. Considerent autem istis patres, an et istum 
+          <lb ed="#B"/>Doctorem simul cum <name>Durando</name>, <name>Henrico</name>, et aliis pro haeretico ab eccle<lb ed="#B"/>sia 
+          anathematizent?
+        </p>
       </div>
     </body>
   </text>
