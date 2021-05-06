@@ -6,7 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Apologia, Disputatio 7</title>
-        <author xml:id="PicoDellaMirandola">Pico della Mirandola</author>
+        <author xml:id="PicoDellaMirandoal">Pico della Mirandola</author>
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
@@ -41,7 +41,7 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       
       <div xml:id="starts-on">
@@ -53,44 +53,97 @@
         <head xml:id="pdma-d7-Hd1e3846">Apologia, Disputatio 7 [Basel 1557 Transcription]</head>
         <p xml:id="pdma-d7-d1e3849">
           <pb ed="#B" n="199"/>
-          <lb ed="#B"/>Rationabilius est credere <name ref="#Origen">Origenem</name> esse saluum, quam credere ip<lb ed="#B"/>sum 
-          esse damnatum. Dixerunt isti Magistri, quod haec conclusio 
-          <lb ed="#B"/>est temeraria et reprehendenda, et haeresim sapiens, et contra de<lb ed="#B"/>terminationem 
-          universalis Ecclesiae. ergo autem ut de eis modestius lo<lb ed="#B"/>quar, 
-          volo ostendere suum iudicium non esse rectum: et quod haec con<lb ed="#B"/>clusio 
-          non est contra determinationem Ecclesiae et quod plus est, quod quan<lb ed="#B"/>do 
-          etiam quaecunque ipsi contra me afferunt essent vera, adhuc non po<lb ed="#B"/>test 
-          dici, quod haec conclusio sit haeretica vel haeresim sapiat. erunt autem pro 
-          <lb ed="#B"/>pleniori huius materiae declaratione, septem articuli.
+          It is more rational to believe 
+          that Origin is saved, 
+          than to believe that is damned. 
+          These Masters have said 
+          that this conclusion is reckless and should be refuted, 
+          and it is to know heresy, 
+          and it is against the determination of the universal church.
+          But so that I would speak about these things more modestly, 
+          I wish to show that this judgment is not correct 
+          and that this conclusion is not against the determination of the Church 
+          and what is more, were anything which they allege against to be true, 
+          still it would not be able to be said 
+          that this conclusion is heretical or knows heresy. 
+          But for a greater declaration of this matter,
+          there will be seven articles.
         </p>
         <p xml:id="pdma-d7-d1e3876">
-          In primo videbitur, 
-          <lb ed="#B"/>an Origenes unquam haereticam aliquam de rebus fidei opinionem, scri<lb ed="#B"/>pserit 
-          et crediderit? in secundo, dato quod scripserit, an dogmatice, vel ad<lb ed="#B"/>haesive, 
-          vel inquisitive tantum scripserit? in tertio, dato quod adhaesive, an 
-          <lb ed="#B"/>taliter adhaesive, quod illa scribendo mortaliter peccaverit, et haereticus di<lb ed="#B"/>ci 
-          possit? in quarto, dato quod scripserit, et taliter scripserit, quod scriben<lb ed="#B"/>do 
-          erraverit, an pro talibus unquam poenituerit? in quinto, dato quod de 
-          eius nec poenitentia, nec impoenitentia constet, an sit rationabilius ipsum 
-          <lb ed="#B"/>credere esse damnatum an saluum? in sexto, quid ex dictis decretorum, iu<lb ed="#B"/>dicandum 
-          sit, Ecclesiam determinasse de <name>Origine</name>? in septimo, quantum ob<lb ed="#B"/>liget 
-          in ista materia, crudelitatem nostram determinatio Ecclesiae?
+          In the first place it will be seen,
+          whether <name>Origin</name> ever wrote 
+          and believed a heretical opinion about an article of faith. 
+          In the second, granting that he wrote something heretical, 
+          whether he did so dogmatically, or adhesively, 
+          or only inquisitively. 
+          In the third place, granted that he did so adhesively, 
+          whether in such a way that 
+          by writing these things he sinned mortally, 
+          and is able to be called a heretic.
+          In the fourth place, 
+          given that he wrote, and in such a way that by writing he erred, 
+          whether he ever did penance for such things. 
+          In the fifth place, granted that he did not do penance for this, 
+          or stand in penitence, whether it is more rational to believe 
+          that is damned than saved. 
+          In the sixth, 
+          what should be judged from what is said in the Decretals
+          regarding what the Church has determined about <name>Origine</name>? 
+          In the seventh, 
+          how much the determination of the 
+          Church demands our believe in this matter?
         </p>
+        <!-- article 1 -->
         <p xml:id="pdma-d7-d1e3901">
-          In materia 
-          <lb ed="#B"/>primi articuli, amara fuit inter <name ref="#TyranniusRufinus">Ruffinum</name> et <name ref="#Jerome">Hieronymum</name> contenti, qui<lb ed="#B"/>bus 
-          (ut dicit <name ref="#Augustine">Augustinus</name>, qui ortam inter eos dissensionem deplorat) dede<lb ed="#B"/>rat 
-          Deus, ut coniunctissimi et familiarissimi, mella scripturarum sancta<lb ed="#B"/>rum 
-          pariter lamberent. Opinatur Ruffinus haeretica dogmata, quae in li<lb ed="#B"/>bris 
-          <name ref="#Origen">Origenis</name> inveniuntur, ab haereticis falsa fuisse inserta, qui illius depraverunt libros, 
-          et ex <name ref="#Ori">Origenis</name> mente non esse. <name ref="#Jerome">Hieronymus</name> contra sentit. 
-          <lb ed="#B"/>Sed videamus, quid utraque opinio habet probabilitatis, et apparebit for<lb ed="#B"/>te, 
-          quod salva fide et plenaria satisfactione eorum omnium, quae de neces<lb ed="#B"/>sitate 
-          salutis tenemur credere, adhuc libere et probabiliter potest credi, quod 
-          <lb ed="#B"/>principales illae haereses, ex quibus peccatum convincitur <name ref="#Origen">Origenis</name>, et con<lb ed="#B"/>sequenter 
-          damnatio, non fuerint ex <name>Origenis</name> mente, sed ei falso a perfidis 
-          <lb ed="#B"/>haereticis illius libros depravantibus impositae. Est autem pro hac parte, 
-          <lb ed="#B"/>primo authoritas Pamphili martyris, cuius liber fertur in defensionem <name ref="#Origen">Ori<lb ed="#B"/>genis</name>, 
+          In the matter of the first article,
+          it was bitterly contended between 
+          <name ref="#TyranniusRufinus">Ruffinum</name> and <name ref="#Jerome">Jerome</name>,
+          (as Augustine says, who...)
+          to whom God gave, 
+          so that they most joined and most familiar,
+          would equally absorb the honey of the holy spirit. <!-- augustine quote -->
+          <name>Ruffinus</name> believed that 
+          the heretical teachings found in the books of <name>Origin</name>, 
+          were false things inserted by heretics, 
+          who defiled his books, 
+          and these things are not from the mind of <name>Origin</name>. 
+          <name>Jerome</name> believed the opposite. 
+          But we see, 
+          that each opinion has some probability, 
+          and it will appear perhaps 
+          that with saving faith and full satisfaction of all those things, 
+          which we ought to hold for the necessity of salvation, 
+          it is still possible to freely and probably believe, 
+          that the root of these heresies, 
+          from which the sin of <name>Origin</name> is concluded, 
+          and consequently damnation, 
+          were not from the mind of <name>Origin</name>, 
+          but in a false manner <!--?? -->
+          imposed by faithless heretics 
+          defiling his books.
+          But there is on behalf of this part 
+          in the first place 
+          the authority of <name>Pamphilius the Matyr</name>
+          whose book was<!-- fertur --> in defense of <name>Origin</name>,
+          in which the most glorious Martyr, 
+          from the words of <name>Origin</name> himself, 
+          from the books there recited, 
+          shows that he thought in a Catholic way, 
+          with respect to those matters in which he is accused of heresy. 
+          But <name>Jerome</name>,
+          denying that this book is written by Pamphilius,
+          in his responsive defense 
+          to Occeanum and Pammachium speaks thus. 
+          If you say that his books have been violated 
+          by the enemies of Jerome, 
+          as it is rumored, 
+          why is it not permissible to me to say 
+          about the volume appearing under the name of <name>Pamphilius</name>
+          that they were composed by his friends and secretaries, 
+          
+          .
+          
+           
           in quo gloriosissimus Martyr, ex verbis ipsius <name ref="#Origen">Origenis</name>, ex eius li<lb ed="#B"/>bris 
           ibi recitatis, ostendit ipsum Catholice sensisse, in his in quibus haere<lb ed="#B"/>ticus 
           accusatur. <name ref="#Jerome">Hieronymus</name> autem hunc librum negans esse Pamphili, in 
@@ -372,49 +425,160 @@
           <pb ed="#B" n="213"/>
           <lb ed="#B"/>sit macula, sed firmum propositum, de illis credere semper consonae scri<lb ed="#B"/>pturae 
           et ecclesiae, ille nec peccat mortaliter, nec haereticus proprie est di<lb ed="#B"/>cendus. 
-          Ex qua propositione, sequitur correlarie, possibile esse, quod opi<lb ed="#B"/>nari 
-          aliquam opinionem, aliquo tempore sit peccatum mortale, quod non 
-          <lb ed="#B"/>erit alio tempore: et hoc st, quia potest quis sine pertinacia credere aliquid 
-          <lb ed="#B"/>uno tempore, quod alio tempore non crederet sine pertinacia, ut puta, post 
-          <lb ed="#B"/>determinationem Ecclesiae, aut sacrae scripturae dilucidationem. de op<lb ed="#B"/>posito 
-          crediti, attestatur sententia omnium doctorum, dicentium: Quod non 
-          <lb ed="#B"/>praecise error intellectus, facit hominem haereticum, sed oportet quod sit 
-          <lb ed="#B"/>malicia et perversitas in voluntate. Ideo dicebat <name ref="#Augustine">Augustinus</name>: Errare pos<lb ed="#B"/>sum 
-          haereticus esse non possum.
+          
+          From which proposition, 
+          it follows correlative, 
+          that it is possible, 
+          that to hold some opinion, 
+          that at one time is a mortal sin, 
+          that will not be at another time: 
+          and this is 
+          because one is able to believe something without stubbornness at one time, 
+          that at another time he would not believe without stubbornness, 
+          consider for example, 
+          at a time after the determination of the Church, 
+          or the explanation of the sacred scriptures. 
+          Concerning the opposite of what has been believed, 
+          this is confirmed by the opinion of all doctors,
+          who say: 
+          <!-- quote ?? --> 
+          it is not precisely the error of the intellect that makes one a heretic 
+          but it is necessary that he is also 
+          malicious and perverse in the will. 
+          Therefore <name>Augustine</name> says: 
+          <!--  quote?? --><quote>I am able to error and still not be a heretic</quote>.
         </p>
         <p xml:id="pdma-d7-d1e5010">
-          Confirmatur hoc ex determinatione uni<lb ed="#B"/>versalis 
-          Ecclesiae, quae multos canonizavit, qui tamen usque ad mortem perse<lb ed="#B"/>veraverunt 
-          in erroneis opinionibus de fide, et deinde per ecclesiam pro hae<lb ed="#B"/>reticis 
-          reprobatis, quas opiniones nusquam legitur ab illis fuisse retracta<lb ed="#B"/>tas. 
-          Tales fuerunt Papias Episcopus Hieropolitanus, Victorinus Picta<lb ed="#B"/>vensis, 
-          Hireneus Lugdunensis, <name>beatus Cyprianus</name>, et multi alii, quos sci<lb ed="#B"/>mus 
-          errasse in fide, et eorum opiniones pro haereticis condemnatas, et 
-          <lb ed="#B"/>tamen ipsi habentur in canone sanctorum, ex quo sequitur, ut necessario 
-          <lb ed="#B"/>dicendum sit, quod vel illi etiam, quod decesserint in illis opinionibus er<lb ed="#B"/>roneis 
-          in fide, non tamen decesserint in peccato mortali. vel quod ecclesia 
-          <lb ed="#B"/>erraverit in eorum canonizatione, quod si dixerint (ut etiam dixit quidam 
-          <lb ed="#B"/>ex his qui me impugnabant) respondens, Quod illi forte non erant bene 
-          <lb ed="#B"/>canonizati: iam non ego, sed ipsi sentiunt contra determinationem univer<lb ed="#B"/>salis 
-          Ecclesiae. Ex hac autem propositione infero, ad propositum Orige<lb ed="#B"/>nis 
-          sic: Quod dato etiam, quod <name>Origenes</name> multas et plurimas habuerit opi<lb ed="#B"/>niones 
-          erroneas in fide, hoc praecise, si in voluntate eius nulla fuit macula, ali<lb ed="#B"/>quo 
-          modo non potest esse argumentum, quod anima eius sit damnata. Ut 
-          <lb ed="#B"/>sic arguatur, Aut quantumcunque magnus error, de quibuscunque rebus fi<lb ed="#B"/>dei, 
-          sit in intellectu alicuius, modo in voluntate nulla sit macula, non im<lb ed="#B"/>pedit 
-          salutem eius, aut quantumcunque parvus, et de quacunque re sit im<lb ed="#B"/>pedit, 
-          aut aliquis impedit, et aliquis non impedit. Si quantumcunque ma<lb ed="#B"/>gnus 
-          sit non impedit, ergo etiam, quod <name>Origenes</name> et in multis erraverit, et in 
-          <lb ed="#B"/>principalioribus illa tamen, si fuit voluntas eius bene disposita, et nullo mo<lb ed="#B"/>do 
-          maculata, nihil impedivit eius salutem. et ita qui volunt convincere dam<lb ed="#B"/>nationem 
-          eius, non sufficit quod ostendant errores eius, et perseverantiam 
-          <lb ed="#B"/>in eis: sed oportet, quod ostendant perseverantiam, cum pertinacia, aut ne<lb ed="#B"/>gligentia, 
-          vel alia malitia voluntatis. Si quantumcunque parvus sufficit, er<lb ed="#B"/>go 
-          error de rebaptizandis haereticis, debuit impedire salutem Cypriani, 
-          <lb ed="#B"/>et haeresis illorum, qui dicuntur Chiliastae, debuit impedire salutem Pa<lb ed="#B"/>piae, 
-          qui fuit author illius haeresis, et cum illa decessit: et si sic ergo male 
-          <lb ed="#B"/>ab ecclesia fuerunt canonizati. Si aliquis impedit, et aliquis non, dicant 
-          <pb ed="#B" n="214"/>oportet, qui sunt illi errores qui impediunt, et qui non. et ubi unquam in<lb ed="#B"/>venitur 
+          This is confirmed from the determination of the universal church, 
+          which has canonized many people, 
+          who nevertheless persisted up to the point of death 
+          in erroneous opinions regarding faith, 
+          and then condemned by the church as heretical, 
+          opinions about which it has never been read 
+          that they have been retracted by them.
+          Such is the case for <name>Papias Bishop of Heiropolitanus</name>, 
+          <name>Victorinus of Pictavensis</name>, 
+          <name>Hireneus Lugdunesis</name>, 
+          <name>Blessed Cyprian</name>, and many others, 
+          whom we know to have erred in the faith, 
+          and whose opinions were condemned as heretical, 
+          and nevertheless these are held in the canon of saits, 
+          from which it follows, 
+          as it necessarily must be said, 
+          that either these men also, 
+          though they died while holding erroneneous opinions about the faith, 
+          nevertheless they did not die in mortal sin, 
+          or that the church erred in its canonization of them, 
+          because if they said in responding
+          (as one among those who have attacked me has said)
+          that perhaps these ones were not well canonized: 
+          then it is not I, but they who hold an opinion 
+          against the determination of the universal Chruch. 
+          But from this proposition I infer thus, 
+          with respect the proposed of <name>Origen</name>, 
+          That given also, that <name>Origen</name>
+          held many erroneous opinions in the faith, 
+          speaking precisely, 
+          if in his will there is no stain, 
+          then in a certain mode it is not able to be argued 
+          that his soul is damned.
+          Thus it is argued so: 
+          [1] either however great the error about any matter of faith, 
+          when it is in the intellect of this person, 
+          but there is not stain in the will, then 
+          this does not impede his salvation, 
+          [2] or however small, and with respect to any matter 
+          it impede salvation, 
+          [3] or something things impede salvation and others do not.
+          <!-- para break -->
+          If something not matter how great does not impede, 
+          therefore it is also, granted that <name>Origen</name> 
+          erred both in many things and in foundational things, 
+          nevertheless if his will was well disposed, 
+          and in no mode stained, 
+          nothing impeded his salvation.
+          And thus those who wish to conclude that he was damned, 
+          it does not suffice that they show his errors, 
+          and his persistence in them, 
+          it is necessary, that they show 
+          persistence with pertinacity, or negligence, 
+          or another malice of the will. 
+          <!-- para break -->
+          If however the smallest error sufficies, 
+          then the error of rebaptizing heretics 
+          ought to impeded the salvation of <name>Cyprian</name> 
+          and those heresy of those which are called the  
+          <unclear>Chiliastae</unclear> 
+          ought to impede the salvation of <name>Papias</name>, 
+          who was the author of this heresy, 
+          and died with this heresy. 
+          And if this is the case, 
+          then they were badly canonized by the Church. 
+          If some impede, and some do not, 
+          it is necessary that they say 
+          which are the errors which impede 
+          and which are the errors that do not, 
+          and where the following distinction made by the church is found, 
+          namely for example it is said, 
+          to have an error in those things, 
+          which pertains to such and such an article, 
+          even if it is strictly a weakness or defect of the intellect, 
+          and not some perversity, negligence, 
+          nor pertinacity, nor some other malice in the will, 
+          it is a mortal sin, 
+          but to make an error in those things, 
+          which pertain to such and such a matter, 
+          this is not a mortal sin, unless there is a defect in the will. 
+          And if such a distinction is not made, 
+          either by the church or by the doctors, 
+          then it does not seem to be possible,
+          and does not appear rational that the saying of those is valid, 
+          who say that there some difference between the case of <name>Cyprian</name> and <name>Papias</name> 
+          and others, and the case of <name>Origen</name>, 
+          because <name>Origen</name> erred in principle things, 
+          for however great is there error, 
+          when it is only an error in the intellect, 
+          and there is no malice in the will, 
+          it does not seem that such a person 
+          erring sins mortally, 
+          on account of which 
+          since we do not read that 
+          there was such malice in the will of Origen, 
+          even if we grant, 
+          that he erred gravely in the foundational mysteries of the faith, 
+          which were rightly damned by the Church, 
+          it is not possible to conclude that he himself and his soul 
+          were damned. 
+          <!-- paragraph break -->
+          That if someone says, 
+          there are many grades of propositions that should be believed
+          besides this grade of propositions, 
+          namely those determined through the Church, 
+          and that even if 
+          it is not through stubbornness, 
+          nevertheless the sign of stubbornness 
+          is to assert things, 
+          asserting the opposite of which 
+          <!-- ?? --> 
+          is held by explicit faith to be told and  believe,
+          <!-- ?? -->
+          and that not only is he mortally culpable, 
+          the error on account of the stubbornness,
+          but also when he is guilty of negligence 
+          of inquiring after the truth, 
+          which negligence is not stubbornness, 
+          at least not properly speaking, 
+          and it seems easily possible to respond.
+          <!-- response; new paragraph -->
+          In the first place
+          
+          
+          
+          
+          
+          
+          
+           qui sunt illi errores qui impediunt, et qui non. et ubi unquam in<lb ed="#B"/>venitur 
           facta ista distinctio ab Ecclesia
           
         </p>
